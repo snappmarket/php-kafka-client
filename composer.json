@@ -1,0 +1,29 @@
+{
+  "name": "snappmarket/php-kafka-client",
+  "description": "Kafka client provides interface for services which communicate together",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "SnappMarket\\KafkaClient\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "SnappMarket\\KafkaClient\\Tests\\": "tests/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Abouzar Imanizadeh",
+      "email": "abouzar.imanizadeh@snapp.market"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": "^7.1|^8.0",
+    "ext-rdkafka": "^4.0|^5.0|^6.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7.0"
+  }
+}
